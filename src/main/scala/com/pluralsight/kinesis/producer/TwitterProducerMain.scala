@@ -29,10 +29,10 @@ object TwitterProducerMain {
     //create a Twitter stream
     //step 1 create configurations and pass the access keys
     val cb = new ConfigurationBuilder
-    cb.setOAuthConsumerKey("WuJr0R44DKo8I4jFSorDA7RB4")
-      .setOAuthConsumerSecret("BqS81nlav3mXEpqb3RcHivOBOMWfjWiSOdt4RXBzfDpfztjBjN")
-      .setOAuthAccessToken("148920981-WiFVmOPETfHf0rxzPf8PPRqINka9kPCKp5O9RuAq")
-      .setOAuthAccessTokenSecret("FbBUcX0OXymgb2DRiDMZkb9xNnUCl9ofiC2zf0gJuPWSK")
+    cb.setOAuthConsumerKey("")
+      .setOAuthConsumerSecret("")
+      .setOAuthAccessToken("")
+      .setOAuthAccessTokenSecret("")
 
     // create new instance of twitter stream
     return new TwitterStreamFactory(cb.build).getInstance
